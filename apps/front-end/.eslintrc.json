@@ -1,7 +1,8 @@
 {
     "root": true,
     "ignorePatterns": ["!**/*"],
-    "plugins": ["@nx"],
+    "extends": ["plugin:playwright/recommended", "../../.eslintrc.json"],
+    "plugins": ["@nx", "eslint:recommended", "plugin:svelte/recommended"],
     "overrides": [
         {
             "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
@@ -32,6 +33,10 @@
             "rules": {}
         },
         {
+            "files": ["*.svelte"],
+            "processor": "svelte3/svelte3"
+        },
+        {
             "files": ["*.json"],
             "parser": "jsonc-eslint-parser",
             "rules": {
@@ -44,6 +49,10 @@
                     }
                 ]
             }
+        },
+        {
+            "files": ["e2e/**/*.{ts,js,tsx,jsx}"],
+            "rules": {}
         }
     ]
 }
