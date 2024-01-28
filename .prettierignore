@@ -2,3 +2,9 @@
 /dist
 /coverage
 /.nx/cache
+/.vscode
+/.yarn
+/.nx
+/.svelte-kit
+/node_modules
+.prettierrc
