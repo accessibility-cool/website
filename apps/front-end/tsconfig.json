@@ -4,9 +4,8 @@
         "esModuleInterop": false,
         "allowSyntheticDefaultImports": true,
         "types": ["vite/client", "vitest"],
-        "declaration": false
+        "declaration": true
     },
-    "include": [],
     "references": [
         {
             "path": "./tsconfig.app.json"
