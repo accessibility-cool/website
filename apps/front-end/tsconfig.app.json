@@ -1,18 +1,20 @@
 {
-    "extends": "../../tsconfig.json",
+    "extends": "../../tsconfig.base.json",
     "compilerOptions": {
         "moduleResolution": "node",
         "target": "esnext",
         "ignoreDeprecations": "5.0",
         "isolatedModules": true,
         "sourceMap": true,
-        "declaration": true,
         "composite": true,
         "types": ["svelte", "node", "vite/client"],
         "strict": false,
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        "checkJs": true
-    }
+        "checkJs": true,
+        "declaration": true,
+        "noEmit": false
+    },
+    "exclude": ["./svelte.config.cjs"]
 }

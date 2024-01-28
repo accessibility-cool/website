@@ -1,14 +1,15 @@
 import adapter from '@sveltejs/adapter-netlify';
-const sveltePreprocess = require('svelte-preprocess');
+import preprocess from 'svelte-preprocess';
 
-module.exports = {
-    // Consult https://github.com/sveltejs/svelte-preprocess
-    // for more information about preprocessors
-    preprocess: sveltePreprocess()
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	preprocess: preprocess(),
+	kit: {
+		adapter: adapter()
+	},
+	files: {
+		serviceWorker: 'src/service-worker.ts'
+	}
 };
 
-export default {
-    kit: {
-        adapter: adapter()
-    }
-};
+export default config;

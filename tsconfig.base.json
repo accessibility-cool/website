@@ -19,5 +19,7 @@
             "@svelte/shared": ["libs/shared/src/index.ts"]
         }
     },
+    "files": [],
+    "include": [],
     "exclude": ["node_modules", "tmp"]
 }
