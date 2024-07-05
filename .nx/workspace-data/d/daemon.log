@@ -1,0 +1,901 @@
+[NX Daemon Server] - 2024-07-05T12:13:12.191Z - Started listening on: /var/folders/tk/xkbdkm7s5hv0s0p3hlh9nvc40000gp/T/8a30a770405d51027c50/d.sock
+[NX Daemon Server] - 2024-07-05T12:13:12.192Z - [WATCHER]: Subscribed to changes within: /Users/simonphumin/Development/website (native)
+[NX Daemon Server] - 2024-07-05T12:13:12.195Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:12.195Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:13:12.196Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:12.196Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:12.202Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-05T12:13:12.202Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:13:12.202Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:13:12.583Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-05T12:13:12.584Z - Time taken for 'total for creating and serializing project graph' 387.2960420846939ms
+[NX Daemon Server] - 2024-07-05T12:13:12.585Z - [WATCHER]: .nx/workspace-data/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-07-05T12:13:12.586Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-05T12:13:12.586Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 387. Response time: 3.
+[NX Daemon Server] - 2024-07-05T12:13:12.587Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:12.587Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-05T12:13:12.587Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-07-05T12:13:12.587Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:13:12.597Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-07-05T12:13:12.597Z - Time taken for 'total for creating and serializing project graph' 10.03612494468689ms
+[NX Daemon Server] - 2024-07-05T12:13:12.598Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-07-05T12:13:12.598Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 10. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:13:12.599Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:13:20.379Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-05T12:13:20.380Z - [WATCHER]: Stopping the watcher for /Users/simonphumin/Development/website (sources)
+[NX Daemon Server] - 2024-07-05T12:13:20.380Z - [WATCHER]: Stopping the watcher for /Users/simonphumin/Development/website (outputs)
+[NX Daemon Server] - 2024-07-05T12:13:20.380Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-07-05T12:13:25.611Z - Started listening on: /var/folders/tk/xkbdkm7s5hv0s0p3hlh9nvc40000gp/T/8a30a770405d51027c50/d.sock
+[NX Daemon Server] - 2024-07-05T12:13:25.612Z - [WATCHER]: Subscribed to changes within: /Users/simonphumin/Development/website (native)
+[NX Daemon Server] - 2024-07-05T12:13:25.613Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:25.613Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:13:25.614Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:25.614Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:25.619Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-05T12:13:25.619Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:13:25.619Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:13:25.810Z - Error detected when creating a project graph: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+[NX Daemon Server] - 2024-07-05T12:13:25.810Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:13:25.810Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:13:25.810Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 196. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:13:25.811Z - Time taken for 'Load Nx Plugin: /Users/simonphumin/Development/website/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.55145800113678ms
+[NX Daemon Server] - 2024-07-05T12:13:25.811Z - [WATCHER]: .nx/workspace-data/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-07-05T12:13:25.811Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:13:25.827Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:25.828Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:13:25.828Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:25.828Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:25.828Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-05T12:13:25.828Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-07-05T12:13:25.828Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:13:25.831Z - Error detected when creating a project graph: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+[NX Daemon Server] - 2024-07-05T12:13:25.831Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:13:25.831Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:13:25.831Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:13:25.831Z - Time taken for 'hash changed files from watcher' 0.046916961669921875ms
+[NX Daemon Server] - 2024-07-05T12:13:26.836Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:26.836Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:13:26.836Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:13:26.836Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:13:26.837Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:13:26.863Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:26.863Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:13:26.863Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:26.864Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:26.864Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:13:26.864Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:13:26.864Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:13:30.867Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:30.867Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:13:30.867Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:13:30.868Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:13:30.868Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:13:30.887Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:30.887Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:13:30.887Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:30.888Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:30.888Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:13:30.888Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:13:30.888Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:13:39.901Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:39.902Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:13:39.902Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:13:39.902Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:13:39.903Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:13:39.931Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:39.932Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:13:39.933Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:13:39.933Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:13:39.933Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:13:39.934Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:13:39.934Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:14.034Z - [WATCHER]: vite.config.ts was modified
+[NX Daemon Server] - 2024-07-05T12:14:14.034Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-05T12:14:14.136Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-05T12:14:14.136Z - [REQUEST]: vite.config.ts
+[NX Daemon Server] - 2024-07-05T12:14:14.136Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:14:14.143Z - Error detected when creating a project graph: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+[NX Daemon Server] - 2024-07-05T12:14:14.143Z - Time taken for 'hash changed files from watcher' 0.17933297157287598ms
+[NX Daemon Server] - 2024-07-05T12:14:15.037Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:15.038Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async Timeout._onTimeout (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:85:13)
+[NX Daemon Server] - 2024-07-05T12:14:15.038Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:15.038Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:15.038Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:15.070Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:15.070Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:15.071Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:15.072Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:15.072Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async Timeout._onTimeout (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:85:13)
+[NX Daemon Server] - 2024-07-05T12:14:15.072Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:15.072Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:16.076Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:16.076Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async Timeout._onTimeout (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:85:13)
+[NX Daemon Server] - 2024-07-05T12:14:16.076Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:16.076Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:16.077Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:16.099Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:16.100Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:16.100Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:16.100Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:16.101Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async Timeout._onTimeout (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:85:13)
+[NX Daemon Server] - 2024-07-05T12:14:16.101Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:16.101Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:20.107Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:20.108Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async Timeout._onTimeout (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:85:13)
+[NX Daemon Server] - 2024-07-05T12:14:20.108Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:20.108Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:20.108Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:20.143Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:20.143Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:20.144Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:20.144Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:20.145Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async Timeout._onTimeout (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:85:13)
+[NX Daemon Server] - 2024-07-05T12:14:20.145Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:20.145Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:21.876Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-05T12:14:21.876Z - [WATCHER]: Stopping the watcher for /Users/simonphumin/Development/website (sources)
+[NX Daemon Server] - 2024-07-05T12:14:21.876Z - [WATCHER]: Stopping the watcher for /Users/simonphumin/Development/website (outputs)
+[NX Daemon Server] - 2024-07-05T12:14:21.876Z - Server stopped because: "LOCK_FILES_CHANGED"
+[NX Daemon Server] - 2024-07-05T12:14:23.045Z - Started listening on: /var/folders/tk/xkbdkm7s5hv0s0p3hlh9nvc40000gp/T/8a30a770405d51027c50/d.sock
+[NX Daemon Server] - 2024-07-05T12:14:23.045Z - [WATCHER]: Subscribed to changes within: /Users/simonphumin/Development/website (native)
+[NX Daemon Server] - 2024-07-05T12:14:23.051Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:23.052Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:14:23.052Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:23.053Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:23.058Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-05T12:14:23.058Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:14:23.058Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:14:23.257Z - Error detected when creating a project graph: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+[NX Daemon Server] - 2024-07-05T12:14:23.257Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:14:23.257Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:23.257Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 204. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:23.258Z - Time taken for 'Load Nx Plugin: /Users/simonphumin/Development/website/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.143959045410156ms
+[NX Daemon Server] - 2024-07-05T12:14:23.258Z - [WATCHER]: .nx/workspace-data/d/server-process.json was created or restored
+[NX Daemon Server] - 2024-07-05T12:14:23.258Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:23.272Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:23.272Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:14:23.272Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:23.272Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:23.272Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-05T12:14:23.272Z - [REQUEST]: .nx/workspace-data/d/server-process.json
+[NX Daemon Server] - 2024-07-05T12:14:23.272Z - [REQUEST]: 
+[NX Daemon Server] - 2024-07-05T12:14:23.275Z - Error detected when creating a project graph: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+[NX Daemon Server] - 2024-07-05T12:14:23.275Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:14:23.275Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:23.275Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:23.275Z - Time taken for 'hash changed files from watcher' 0.05441701412200928ms
+[NX Daemon Server] - 2024-07-05T12:14:29.152Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:29.153Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:14:29.153Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:29.153Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:29.153Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:29.176Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:29.177Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:29.177Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:29.177Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:29.178Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:14:29.178Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:29.178Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:30.182Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:30.182Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:14:30.183Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:30.183Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:30.183Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:30.211Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:30.211Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:14:30.211Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:30.212Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:30.212Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:14:30.212Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:30.213Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:34.219Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:34.220Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:14:34.220Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:34.220Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:34.221Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:34.251Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:34.251Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:14:34.252Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:34.252Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:34.252Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+Error: InvalidSymbol in /Users/simonphumin/Development/website/package.json at 18:1
+  16 |     },
+  17 |     "dependencies": {
+> 18 | <<<<<<< HEAD
+     | ^^^^^^^
+  19 |         "tslib": "^2.6.2"
+  20 |     },
+  21 |     "devDependencies": {
+
+    at parseJson (/Users/simonphumin/Development/website/node_modules/nx/src/utils/json.js:27:15)
+    at readJsonFile (/Users/simonphumin/Development/website/node_modules/nx/src/utils/fileutils.js:22:37)
+    at readCombinedDeps (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:114:40)
+    at buildProjectGraphUsingProjectFileMap (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/build-project-graph.js:63:29)
+    at createAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:229:124)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processFilesAndCreateAndSerializeProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:160:19)
+    at async getCachedSerializedProjectGraphPromise (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:46:16)
+    at async handleRequestProjectGraph (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/handle-request-project-graph.js:12:24)
+    at async handleResult (/Users/simonphumin/Development/website/node_modules/nx/src/daemon/server/server.js:139:16)
+[NX Daemon Server] - 2024-07-05T12:14:34.252Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:34.252Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:34.446Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-07-05T12:14:34.447Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-07-05T12:14:34.548Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-07-05T12:14:34.548Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-07-05T12:14:34.548Z - [REQUEST]: 
+
+ NX   Failed to parse yarn lockfile
+
+Please open an issue at `https://github.com/nrwl/nx/issues/new?template=1-bug.yml` and provide a reproduction.
+
+Original error: Source project does not exist: npm:@ampproject/remapping
+
+
+Error: Source project does not exist: npm:@ampproject/remapping
+    at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+    at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+    at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+    at Array.forEach (<anonymous>)
+    at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+    at Array.forEach (<anonymous>)
+    at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+    at Array.forEach (<anonymous>)
+    at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+    at Array.forEach (<anonymous>)
+
+[NX Daemon Server] - 2024-07-05T12:14:34.648Z - Error detected when creating a project graph: Failed to create project graph. See above for errors
+[NX Daemon Server] - 2024-07-05T12:14:34.648Z - Time taken for 'hash changed files from watcher' 0.16962504386901855ms
+[NX Daemon Server] - 2024-07-05T12:14:35.449Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:35.449Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:35.450Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:35.450Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:35.450Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:35.472Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:35.472Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:35.472Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:35.473Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:35.473Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:35.473Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:35.473Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:35.474Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:35.474Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:35.474Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:35.474Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:35.474Z - Established a connection. Number of open connections: 2

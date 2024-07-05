@@ -1,0 +1,228 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.4.0",
+  "deps": {
+    "tslib": "^2.6.3",
+    "@nx/devkit": "19.4.0",
+    "@nx/eslint": "^19.4.0",
+    "@nx/eslint-plugin": "^19.4.0",
+    "@nx/js": "^19.4.0",
+    "@nx/playwright": "^19.4.0",
+    "@nx/vite": "^19.4.0",
+    "@nx/workspace": "^19.4.0",
+    "@playwright/test": "^1.45.1",
+    "@sveltejs/adapter-netlify": "^4.3.0",
+    "@sveltejs/kit": "^2.5.18",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@swc-node/register": "~1.10.0",
+    "@swc/core": "~1.6.7",
+    "@types/node": "20.14.9",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "@vitest/coverage-v8": "~1.6.0",
+    "@vitest/ui": "~1.6.0",
+    "eslint": "~9.6.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^1.6.2",
+    "eslint-plugin-svelte": "^2.41.0",
+    "nx": "19.4.0",
+    "prettier": "^3.3.2",
+    "svelte": "^4.2.18",
+    "svelte-check": "^3.8.4",
+    "ts-node": "10.9.2",
+    "typescript": "~5.5.3",
+    "vite": "^5.3.3",
+    "vite-tsconfig-paths": "~4.3.2",
+    "vitest": "^1.6.0"
+  },
+  "pathMappings": {
+    "@svelte/shared": [
+      "libs/shared/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".svelte-kit/non-ambient.d.ts",
+        "hash": "13078435341031729322"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10494918510047537354"
+      },
+      {
+        "file": ".svelte-kit/generated/client/nodes/1.js",
+        "hash": "8949264194442939790"
+      },
+      {
+        "file": "vite.config.ts",
+        "hash": "12846889095029562677"
+      },
+      {
+        "file": ".yarnrc",
+        "hash": "2548578144436229140"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "4845148850121197086"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "5638296363314183333"
+      },
+      {
+        "file": ".svelte-kit/generated/client/app.js",
+        "hash": "16775489018592589466"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "10120942343109734783"
+      },
+      {
+        "file": ".yarn/releases/yarn-1.22.21.cjs",
+        "hash": "3429181662140821364"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "14067381861485857621"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "package.json",
+        "hash": "8382026826551085594"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "18123309421334270802"
+      },
+      {
+        "file": ".svelte-kit/generated/client/nodes/0.js",
+        "hash": "12946660370171163566"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".svelte-kit/ambient.d.ts",
+        "hash": "6083844702679757133"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "5066321886633428954"
+      },
+      {
+        "file": ".svelte-kit/generated/client/matchers.js",
+        "hash": "989232576159920408"
+      },
+      {
+        "file": ".svelte-kit/tsconfig.json",
+        "hash": "7363432283102924614"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "7195915723771518100"
+      },
+      {
+        "file": "README.md",
+        "hash": "823454503614186733"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16877376182141465221"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      }
+    ],
+    "projectFileMap": {
+      "front-end": [
+        {
+          "file": "apps/front-end/.eslintrc.json",
+          "hash": "12871110277551189380"
+        },
+        {
+          "file": "apps/front-end/e2e/example.spec.ts",
+          "hash": "5132082676049027709",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/front-end/index.html",
+          "hash": "15974669000624816271"
+        },
+        {
+          "file": "apps/front-end/package.json",
+          "hash": "13526509960888776032"
+        },
+        {
+          "file": "apps/front-end/playwright.config.ts",
+          "hash": "7710799430011273208",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/front-end/project.json",
+          "hash": "17932142741399361798"
+        },
+        {
+          "file": "apps/front-end/public/favicon.png",
+          "hash": "13762286034094587751"
+        },
+        {
+          "file": "apps/front-end/public/global.css",
+          "hash": "10007104956882653106"
+        },
+        {
+          "file": "apps/front-end/src/App.svelte",
+          "hash": "1159970745114953055"
+        },
+        {
+          "file": "apps/front-end/src/main.ts",
+          "hash": "374202678130111811"
+        },
+        {
+          "file": "apps/front-end/src/service-worker.ts",
+          "hash": "735250676295437084"
+        },
+        {
+          "file": "apps/front-end/svelte.config.cjs",
+          "hash": "17457175706729939473",
+          "deps": [
+            "npm:@sveltejs/adapter-netlify"
+          ]
+        },
+        {
+          "file": "apps/front-end/tsconfig.app.json",
+          "hash": "13224504798301370675"
+        },
+        {
+          "file": "apps/front-end/tsconfig.json",
+          "hash": "12569240104290344314"
+        },
+        {
+          "file": "apps/front-end/tsconfig.spec.json",
+          "hash": "10300322988194919830"
+        },
+        {
+          "file": "apps/front-end/vite.config.mts",
+          "hash": "1505601106073067168",
+          "deps": [
+            "npm:vite",
+            "npm:@sveltejs/vite-plugin-svelte",
+            "npm:@nx/vite"
+          ]
+        }
+      ]
+    }
+  }
+}
