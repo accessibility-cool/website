@@ -1,11 +1,19 @@
 # accessibility.cool
 
-This library was generated with [Nx](https://nx.dev).
+Nx monorepo stack with SvelteKit (front end) and Directus (back end).
 
 ## Building
 
-Run `nx build accessibility.cool` to build the library.
+Run `yarn build` to build the library.
 
 ## Running unit tests
 
-Run `nx test accessibility.cool` to execute the unit tests via [Vitest](https://vitest.dev/).
+Run `yarn test:unit` to execute the unit tests via [Vitest](https://vitest.dev/).
+
+## Running e2e tests
+
+Run `yarn test:e2e` to execute the unit tests via [Playwright](https://playwright.dev/).
+
+## Deploy front end
+
+Our website is deployed via netlify - tbd.
