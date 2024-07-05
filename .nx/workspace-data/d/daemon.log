@@ -899,3 +899,231 @@ Failed to process project graph. Run "nx reset" to fix this. Please report the i
 [NX Daemon Server] - 2024-07-05T12:14:35.474Z - Done responding to the client null
 [NX Daemon Server] - 2024-07-05T12:14:35.474Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
 [NX Daemon Server] - 2024-07-05T12:14:35.474Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:14:43.258Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:43.259Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:43.260Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:43.260Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:43.260Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:43.286Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:43.287Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:43.288Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:43.288Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:43.288Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:43.289Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:43.289Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:43.289Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:43.290Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:43.290Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:43.290Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:43.290Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:43.291Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:14:44.296Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:44.296Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:44.297Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:44.297Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:44.298Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:44.323Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:44.324Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:44.324Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:44.324Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:44.325Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:44.325Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:44.325Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:44.325Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:44.326Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:44.326Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:44.326Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:44.326Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:44.327Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:14:48.330Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:48.330Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:48.330Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:48.330Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:48.331Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:48.352Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:48.353Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:48.354Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:48.354Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:48.354Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:48.355Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:48.355Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:48.355Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:48.355Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:48.355Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:48.356Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:48.356Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:48.356Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-07-05T12:14:57.361Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:57.362Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:57.362Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:57.362Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:57.363Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:57.391Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:57.392Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:57.393Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-07-05T12:14:57.393Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-07-05T12:14:57.393Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:57.394Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:57.394Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:57.394Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-07-05T12:14:57.394Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-07-05T12:14:57.395Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+Failed to process project graph. Run "nx reset" to fix this. Please report the issue if you keep seeing it.
+  The "nx/js/dependencies-and-lockfile" plugin threw an error while creating dependencies:
+    Error: Source project does not exist: npm:@ampproject/remapping
+        at validateCommonDependencyRules (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:318:15)
+        at validateDependency (/Users/simonphumin/Development/website/node_modules/nx/src/project-graph/project-graph-builder.js:313:5)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:214:80
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:205:49
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:203:72
+        at Array.forEach (<anonymous>)
+        at /Users/simonphumin/Development/website/node_modules/nx/src/plugins/js/lock-file/yarn-parser.js:200:26
+        at Array.forEach (<anonymous>)
+[NX Daemon Server] - 2024-07-05T12:14:57.395Z - Done responding to the client null
+[NX Daemon Server] - 2024-07-05T12:14:57.395Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-07-05T12:14:57.395Z - Established a connection. Number of open connections: 2
