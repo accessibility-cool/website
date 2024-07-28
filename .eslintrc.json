@@ -22,5 +22,5 @@
       }
     }
   ],
-  "extends": ["./.eslintrc.base.json"]
+  "extends": ["plugin:playwright/recommended","./.eslintrc.base.json"]
 }
