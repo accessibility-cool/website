@@ -15,7 +15,8 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@a11y.cool/source": ["src/index.ts"]
+            "@a11y.cool/source": ["src/index.ts"],
+            "@a11y.cool/ui": ["libs/ui/src/index.ts"]
         }
     },
     "files": [],
