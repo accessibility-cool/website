@@ -2,6 +2,7 @@
   "version": "6.0",
   "nxVersion": "19.5.3",
   "deps": {
+    "@nxext/sveltekit": "^18.0.0",
     "tslib": "^2.3.0",
     "@nx/eslint": "19.5.3",
     "@nx/eslint-plugin": "19.5.3",
@@ -93,7 +94,7 @@
         },
         {
           "file": "package.json",
-          "hash": "16472826530003789059",
+          "hash": "8996958640341465545",
           "deps": [
             "npm:@nx/eslint",
             "npm:@nx/eslint-plugin",
@@ -119,12 +120,13 @@
             "npm:typescript",
             "npm:vite",
             "npm:vitest",
+            "npm:@nxext/sveltekit",
             "npm:tslib"
           ]
         },
         {
           "file": "pnpm-lock.yaml",
-          "hash": "6112912462571001584"
+          "hash": "6753569695451187071"
         },
         {
           "file": "project.json",
