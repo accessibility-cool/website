@@ -27,6 +27,7 @@
  */
 declare module '$env/static/private' {
 	export const USER: string;
+	export const VSCODE_WSL_EXT_LOCATION: string;
 	export const WT_PROFILE_ID: string;
 	export const SHLVL: string;
 	export const HOME: string;
@@ -50,6 +51,7 @@ declare module '$env/static/private' {
 	export const HOSTTYPE: string;
 	export const WSL2_GUI_APPS_ENABLED: string;
 	export const WSLENV: string;
+	export const VSCODE_HANDLES_SIGPIPE: string;
 	export const HOMEBREW_PREFIX: string;
 	export const HOMEBREW_CELLAR: string;
 	export const HOMEBREW_REPOSITORY: string;
@@ -62,24 +64,19 @@ declare module '$env/static/private' {
 	export const LS_COLORS: string;
 	export const YSU_VERSION: string;
 	export const P9K_SSH: string;
+	export const VSCODE_AMD_ENTRYPOINT: string;
+	export const VSCODE_HANDLES_UNCAUGHT_ERRORS: string;
+	export const VSCODE_NLS_CONFIG: string;
 	export const P9K_TTY: string;
 	export const _P9K_TTY: string;
-	export const TERM_PROGRAM: string;
-	export const TERM_PROGRAM_VERSION: string;
-	export const COLORTERM: string;
-	export const GIT_ASKPASS: string;
-	export const VSCODE_GIT_ASKPASS_NODE: string;
-	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
-	export const VSCODE_GIT_ASKPASS_MAIN: string;
-	export const VSCODE_GIT_IPC_HANDLE: string;
+	export const VSCODE_CWD: string;
+	export const ELECTRON_RUN_AS_NODE: string;
 	export const VSCODE_IPC_HOOK_CLI: string;
-	export const VSCODE_INJECTION: string;
-	export const ZDOTDIR: string;
-	export const USER_ZDOTDIR: string;
-	export const NX_CLI_SET: string;
-	export const NX_INTERACTIVE: string;
-	export const NX_DRY_RUN: string;
-	export const NX_GENERATE_QUIET: string;
+	export const VSCODE_L10N_BUNDLE_LOCATION: string;
+	export const WALLABY_PRODUCTION: string;
+	export const NX_WORKSPACE_ROOT_PATH: string;
+	export const ELECTRON_NO_ASAR: string;
+	export const CI: string;
 	export const NX_PROJECT_GLOB_CACHE: string;
 	export const NX_CACHE_PROJECTS_CONFIG: string;
 	export const NODE_ENV: string;
@@ -113,6 +110,7 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		USER: string;
+		VSCODE_WSL_EXT_LOCATION: string;
 		WT_PROFILE_ID: string;
 		SHLVL: string;
 		HOME: string;
@@ -136,6 +134,7 @@ declare module '$env/dynamic/private' {
 		HOSTTYPE: string;
 		WSL2_GUI_APPS_ENABLED: string;
 		WSLENV: string;
+		VSCODE_HANDLES_SIGPIPE: string;
 		HOMEBREW_PREFIX: string;
 		HOMEBREW_CELLAR: string;
 		HOMEBREW_REPOSITORY: string;
@@ -148,24 +147,19 @@ declare module '$env/dynamic/private' {
 		LS_COLORS: string;
 		YSU_VERSION: string;
 		P9K_SSH: string;
+		VSCODE_AMD_ENTRYPOINT: string;
+		VSCODE_HANDLES_UNCAUGHT_ERRORS: string;
+		VSCODE_NLS_CONFIG: string;
 		P9K_TTY: string;
 		_P9K_TTY: string;
-		TERM_PROGRAM: string;
-		TERM_PROGRAM_VERSION: string;
-		COLORTERM: string;
-		GIT_ASKPASS: string;
-		VSCODE_GIT_ASKPASS_NODE: string;
-		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
-		VSCODE_GIT_ASKPASS_MAIN: string;
-		VSCODE_GIT_IPC_HANDLE: string;
+		VSCODE_CWD: string;
+		ELECTRON_RUN_AS_NODE: string;
 		VSCODE_IPC_HOOK_CLI: string;
-		VSCODE_INJECTION: string;
-		ZDOTDIR: string;
-		USER_ZDOTDIR: string;
-		NX_CLI_SET: string;
-		NX_INTERACTIVE: string;
-		NX_DRY_RUN: string;
-		NX_GENERATE_QUIET: string;
+		VSCODE_L10N_BUNDLE_LOCATION: string;
+		WALLABY_PRODUCTION: string;
+		NX_WORKSPACE_ROOT_PATH: string;
+		ELECTRON_NO_ASAR: string;
+		CI: string;
 		NX_PROJECT_GLOB_CACHE: string;
 		NX_CACHE_PROJECTS_CONFIG: string;
 		NODE_ENV: string;

@@ -15,6 +15,7 @@
     "@nx/workspace": "19.5.3",
     "@nxext/sveltekit": "^18.0.0",
     "@sveltejs/adapter-auto": "^2.0.1",
+    "@sveltejs/adapter-netlify": "^4.3.1",
     "@sveltejs/kit": "^1.16.3",
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "@swc-node/register": "~1.9.1",

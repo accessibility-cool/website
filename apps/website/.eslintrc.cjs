@@ -6,7 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
   ],
-  plugins: ['svelte3', '@typescript-eslint'],
+  plugins: ['svelte', '@typescript-eslint'],
   ignorePatterns: ['!**/*', '*.cjs', 'vite.config.ts', 'node_modules'],
   overrides: [
     {
