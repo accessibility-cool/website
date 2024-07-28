@@ -42,6 +42,13 @@
         "previewTargetName": "preview",
         "serveStaticTargetName": "serve-static"
       }
+    },
+    {
+      "plugin": "@nx/playwright/plugin",
+      "options": {
+        "ciTargetName": "e2e-ci",
+        "targetName": "e2e"
+      }
     }
   ],
   "nxCloudAccessToken": "MmM5NmU1YmYtMjJkNy00MDI5LWExMGQtNWVhZDZhMzA3N2NlfHJlYWQtd3JpdGU="

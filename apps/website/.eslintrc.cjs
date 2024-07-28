@@ -11,7 +11,7 @@ module.exports = {
   ignorePatterns: ['!**/*', '*.cjs', 'vite.config.ts', 'node_modules'],
   overrides: [
     {
-      files: ['*.svelte'],
+      files: ["*.ts", "*.js",'*.svelte'],
       parser: 'svelte-eslint-parser',
       parserOptions: {
         parser: '@typescript-eslint/parser',

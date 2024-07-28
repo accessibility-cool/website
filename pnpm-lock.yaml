@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@nx/devkit':
+    specifier: 19.5.3
+    version: 19.5.3(nx@19.5.3)
   '@nx/eslint':
     specifier: 19.5.3
     version: 19.5.3(@swc-node/register@1.10.9)(@swc/core@1.7.3)(@types/node@22.0.0)(eslint@9.8.0)(nx@19.5.3)
@@ -14,6 +17,9 @@ devDependencies:
   '@nx/js':
     specifier: 19.5.3
     version: 19.5.3(@swc-node/register@1.10.9)(@swc/core@1.7.3)(@types/node@22.0.0)(nx@19.5.3)(typescript@5.5.4)
+  '@nx/playwright':
+    specifier: ^19.5.3
+    version: 19.5.3(@playwright/test@1.45.3)(@swc-node/register@1.10.9)(@swc/core@1.7.3)(@types/node@22.0.0)(eslint@9.8.0)(nx@19.5.3)(typescript@5.5.4)
   '@nx/vite':
     specifier: 19.5.3
     version: 19.5.3(@swc-node/register@1.10.9)(@swc/core@1.7.3)(@types/node@22.0.0)(nx@19.5.3)(typescript@5.5.4)(vite@5.3.5)(vitest@2.0.4)
@@ -26,6 +32,9 @@ devDependencies:
   '@nxext/sveltekit':
     specifier: ^18.0.0
     version: 18.0.0(@nx/eslint@19.5.3)(@nx/vite@19.5.3)(@swc-node/register@1.10.9)(@swc/core@1.7.3)
+  '@playwright/test':
+    specifier: ^1.36.0
+    version: 1.45.3
   '@sveltejs/adapter-auto':
     specifier: ^3.2.2
     version: 3.2.2(@sveltejs/kit@2.5.18)
@@ -71,6 +80,9 @@ devDependencies:
   eslint-config-prettier:
     specifier: ^9.1.0
     version: 9.1.0(eslint@9.8.0)
+  eslint-plugin-playwright:
+    specifier: ^0.15.3
+    version: 0.15.3(eslint@9.8.0)
   eslint-plugin-svelte:
     specifier: ^2.43.0
     version: 2.43.0(eslint@9.8.0)(svelte@4.2.18)
@@ -2382,6 +2394,36 @@ packages:
     dev: true
     optional: true
 
+  /@nx/playwright@19.5.3(@playwright/test@1.45.3)(@swc-node/register@1.10.9)(@swc/core@1.7.3)(@types/node@22.0.0)(eslint@9.8.0)(nx@19.5.3)(typescript@5.5.4):
+    resolution: {integrity: sha512-EB9ppnTqZhaa5saV5to6QfaGt/GinvFSoNASMXqNIYRBRbwCZt42hKKz14tZzFM+Q0ACkfhh/mXGt6u7mTCtcQ==}
+    peerDependencies:
+      '@playwright/test': ^1.36.0
+    peerDependenciesMeta:
+      '@playwright/test':
+        optional: true
+    dependencies:
+      '@nx/devkit': 19.5.3(nx@19.5.3)
+      '@nx/eslint': 19.5.3(@swc-node/register@1.10.9)(@swc/core@1.7.3)(@types/node@22.0.0)(eslint@9.8.0)(nx@19.5.3)
+      '@nx/js': 19.5.3(@swc-node/register@1.10.9)(@swc/core@1.7.3)(@types/node@22.0.0)(nx@19.5.3)(typescript@5.5.4)
+      '@phenomnomnominal/tsquery': 5.0.1(typescript@5.5.4)
+      '@playwright/test': 1.45.3
+      minimatch: 9.0.3
+      tslib: 2.6.3
+    transitivePeerDependencies:
+      - '@babel/traverse'
+      - '@swc-node/register'
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - '@zkochan/js-yaml'
+      - debug
+      - eslint
+      - nx
+      - supports-color
+      - typescript
+      - verdaccio
+    dev: true
+
   /@nx/vite@19.5.3(@swc-node/register@1.10.9)(@swc/core@1.7.3)(@types/node@22.0.0)(nx@19.5.3)(typescript@5.5.4)(vite@5.3.5)(vitest@2.0.4):
     resolution: {integrity: sha512-qJu9X13zDg78z0mKtOt3S2c4umlKkydJ9QfrfKId803wEN/7CXqSbl//I4sDNM/W/UA1MLze0kqpiHLLy3h4gg==}
     peerDependencies:
@@ -2589,6 +2631,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@playwright/test@1.45.3:
+    resolution: {integrity: sha512-UKF4XsBfy+u3MFWEH44hva1Q8Da28G6RFtR2+5saw+jgAFQV5yYnB1fu68Mz7fO+5GJF3wgwAIs0UelU8TxFrA==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dependencies:
+      playwright: 1.45.3
+    dev: true
 
   /@polka/url@1.0.0-next.25:
     resolution: {integrity: sha512-j7P6Rgr3mmtdkeDGTe0E/aYyWEWVtc5yFXtHCRHs28/jptDEWfaVOc5T7cblqy1XKPPfCxJc/8DwQ5YgLOZOVQ==}
@@ -4093,6 +4143,18 @@ packages:
       eslint: 9.8.0
     dev: true
 
+  /eslint-plugin-playwright@0.15.3(eslint@9.8.0):
+    resolution: {integrity: sha512-LQMW5y0DLK5Fnpya7JR1oAYL2/7Y9wDiYw6VZqlKqcRGSgjbVKNqxraphk7ra1U3Bb5EK444xMgUlQPbMg2M1g==}
+    peerDependencies:
+      eslint: '>=7'
+      eslint-plugin-jest: '>=25'
+    peerDependenciesMeta:
+      eslint-plugin-jest:
+        optional: true
+    dependencies:
+      eslint: 9.8.0
+    dev: true
+
   /eslint-plugin-svelte@2.43.0(eslint@9.8.0)(svelte@4.2.18):
     resolution: {integrity: sha512-REkxQWvg2pp7QVLxQNa+dJ97xUqRe7Y2JJbSWkHSuszu0VcblZtXkPBPckkivk99y5CdLw4slqfPylL2d/X4jQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
@@ -4415,6 +4477,14 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
+
+  /fsevents@2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
 
   /fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -5603,6 +5673,22 @@ packages:
   /pirates@4.0.6:
     resolution: {integrity: sha512-saLsH7WeYYPiD25LDuLRRY/i+6HaPYr6G1OUlN39otzkSTxKnubR9RTxS3/Kk50s1g2JTgFwWQDQyplC5/SHZg==}
     engines: {node: '>= 6'}
+    dev: true
+
+  /playwright-core@1.45.3:
+    resolution: {integrity: sha512-+ym0jNbcjikaOwwSZycFbwkWgfruWvYlJfThKYAlImbxUgdWFO2oW70ojPm4OpE4t6TAo2FY/smM+hpVTtkhDA==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dev: true
+
+  /playwright@1.45.3:
+    resolution: {integrity: sha512-QhVaS+lpluxCaioejDZ95l4Y4jSFCsBvl2UZkpeXlzxmqS+aABr5c82YmfMHrL6x27nvrvykJAFpkzT2eWdJww==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dependencies:
+      playwright-core: 1.45.3
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /portfinder@1.0.32:
