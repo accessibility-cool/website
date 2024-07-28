@@ -22,6 +22,10 @@
       "inputs": ["default", "^production"]
     }
   },
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs"
+  },
   "plugins": [
     {
       "plugin": "@nx/eslint/plugin",
