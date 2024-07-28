@@ -1,0 +1,101 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.5.3",
+  "deps": {
+    "tslib": "^2.6.3",
+    "@nx/devkit": "19.5.3",
+    "@nx/eslint": "19.5.3",
+    "@nx/eslint-plugin": "19.5.3",
+    "@nx/js": "19.5.3",
+    "@nx/playwright": "19.5.3",
+    "@nx/vite": "19.5.3",
+    "@nx/workspace": "19.5.3",
+    "@playwright/test": "^1.45.3",
+    "@sveltejs/adapter-netlify": "^4.3.1",
+    "@sveltejs/kit": "^2.5.18",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@swc-node/register": "~1.10.9",
+    "@swc/core": "~1.7.3",
+    "@types/node": "22.0.0",
+    "@typescript-eslint/eslint-plugin": "7.17.0",
+    "@typescript-eslint/parser": "7.17.0",
+    "@vitest/coverage-v8": "~2.0.4",
+    "@vitest/ui": "~2.0.4",
+    "eslint": "~9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-playwright": "^1.6.2",
+    "eslint-plugin-svelte": "^2.43.0",
+    "nx": "19.5.3",
+    "prettier": "^3.3.3",
+    "svelte": "^4.2.18",
+    "svelte-check": "^3.8.4",
+    "ts-node": "10.9.2",
+    "typescript": "~5.5.4",
+    "vite": "^5.3.5",
+    "vite-tsconfig-paths": "~4.3.2",
+    "vitest": "^2.0.4"
+  },
+  "pathMappings": {
+    "@svelte/shared": [
+      "libs/shared/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "5066321886633428954"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16877376182141465221"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "7195915723771518100"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "5638296363314183333"
+      },
+      {
+        "file": ".yarnrc",
+        "hash": "2548578144436229140"
+      },
+      {
+        "file": "README.md",
+        "hash": "823454503614186733"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10494918510047537354"
+      },
+      {
+        "file": "package.json",
+        "hash": "4256847757763771148"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "18123309421334270802"
+      },
+      {
+        "file": "vite.config.ts",
+        "hash": "12846889095029562677"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "1679213541603558631"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}
