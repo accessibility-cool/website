@@ -1,9 +1,15 @@
 {
-  "name": "website",
-  "version": "0.0.1",
-  "type": "module",
-  "license": "MIT",
-  "devDependencies": {
-    "svelte": "../../node_modules/svelte"
-  }
+    "name": "website",
+    "version": "0.0.1",
+    "type": "module",
+    "license": "MIT",
+    "dependencies": {
+        "@nx-monorepo/store": "*",
+        "@nx-monorepo/ui": "*",
+        "@nx-monorepo/utils": "*"
+    },
+    "devDependencies": {
+        "@playwright/test": "../../node_modules/@playwright/test",
+        "svelte": "../../node_modules/svelte"
+    }
 }

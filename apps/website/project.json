@@ -1,79 +1,78 @@
 {
-  "name": "website",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "projectType": "application",
-  "root": "apps/website",
-  "sourceRoot": "apps/website/src",
-  "tags": ["scope:app"],
-  "targets": {
-    "build": {
-      "executor": "@nxext/sveltekit:sveltekit",
-      "options": {
-        "command": "build"
-      },
-      "dependsOn": [
-        {
-          "target": "build",
-          "projects": "dependencies"
+    "name": "website",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "projectType": "application",
+    "root": "apps/website",
+    "sourceRoot": "apps/website/src",
+    "tags": ["scope:app"],
+    "targets": {
+        "build": {
+            "executor": "@nx/vite:build",
+            "options": {
+                "command": "build"
+            },
+            "dependsOn": [
+                {
+                    "target": "build",
+                    "projects": "dependencies"
+                }
+            ]
+        },
+        "serve": {
+            "executor": "@nx/vite:dev-server",
+            "options": {
+                "command": "dev --host"
+            },
+            "dependsOn": [
+                {
+                    "target": "sync",
+                    "projects": "self"
+                }
+            ]
+        },
+        "preview": {
+            "executor": "@nx/vite:preview-server",
+            "options": {
+                "command": "preview"
+            },
+            "dependsOn": [
+                {
+                    "target": "build",
+                    "projects": "self"
+                }
+            ]
+        },
+        "check": {
+            "executor": "nx:run-commands",
+            "options": {
+                "command": "svelte-check",
+                "cwd": "apps/website"
+            }
+        },
+        "e2e": {
+            "executor": "@nrwl/workspace:run-commands",
+            "options": {
+                "command": "playwright test",
+                "cwd": "apps/blog"
+            },
+            "dependsOn": [
+                {
+                    "target": "build",
+                    "projects": "self"
+                }
+            ]
+        },
+        "add": {
+            "executor": "@nxext/sveltekit:add"
+        },
+        "lint": {
+            "command": "eslint apps/website/**/*.{ts,svelte,spec.ts}"
+        },
+        "sync": {
+            "executor": "@nxext/sveltekit:sveltekit",
+            "options": {
+                "command": "sync"
+            }
         }
-      ]
-    },
-    "serve": {
-      "executor": "@nxext/sveltekit:sveltekit",
-      "options": {
-        "command": "dev --host"
-      },
-      "dependsOn": [
-        {
-          "target": "sync",
-          "projects": "self"
-        }
-      ]
-    },
-    "preview": {
-      "executor": "@nxext/sveltekit:sveltekit",
-      "options": {
-        "command": "preview"
-      },
-      "dependsOn": [
-        {
-          "target": "build",
-          "projects": "self"
-        }
-      ]
-    },
-    "check": {
-      "executor": "nx:run-commands",
-      "options": {
-        "command": "svelte-check",
-        "cwd": "apps/website"
-      }
-    },
-    "e2e": {
-      "executor": "@nrwl/workspace:run-commands",
-      "options": {
-        "command": "playwright test",
-        "cwd": "apps/blog"
-      },
-      "dependsOn": [
-        {
-          "target": "build",
-          "projects": "self"
-
-        }
-      ]
-    },
-    "add": {
-      "executor": "@nxext/sveltekit:add"
-    },
-    "lint": {
-      "command": "eslint apps/website/**/*.{ts,svelte,spec.ts}"
-    },
-    "sync": {
-      "executor": "@nxext/sveltekit:sveltekit",
-      "options": {
-        "command": "sync"
-      }
     }
-  }
 }

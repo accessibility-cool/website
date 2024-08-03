@@ -16,6 +16,7 @@
         "@nx/vite": "19.5.6",
         "@nx/web": "19.5.6",
         "@nx/workspace": "19.5.6",
+        "@nxext/svelte": "^18.0.0",
         "@nxext/sveltekit": "^18.0.0",
         "@playwright/test": "^1.45.3",
         "@sveltejs/adapter-auto": "^3.2.2",
@@ -54,6 +55,5 @@
     },
     "type": "commonjs",
     "main": "./src/index.js",
-    "typings": "./src/index.d.ts",
-    "dependencies": {}
+    "typings": "./src/index.d.ts"
 }
