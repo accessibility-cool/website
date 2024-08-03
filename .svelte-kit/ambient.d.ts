@@ -28,7 +28,6 @@
 declare module '$env/static/private' {
 	export const USER: string;
 	export const VSCODE_WSL_EXT_LOCATION: string;
-	export const WT_PROFILE_ID: string;
 	export const SHLVL: string;
 	export const HOME: string;
 	export const OLDPWD: string;
@@ -43,7 +42,6 @@ declare module '$env/static/private' {
 	export const TERM: string;
 	export const PATH: string;
 	export const XDG_RUNTIME_DIR: string;
-	export const WT_SESSION: string;
 	export const DISPLAY: string;
 	export const LANG: string;
 	export const SHELL: string;
@@ -51,6 +49,8 @@ declare module '$env/static/private' {
 	export const HOSTTYPE: string;
 	export const WSL2_GUI_APPS_ENABLED: string;
 	export const WSLENV: string;
+	export const VSCODE_CWD: string;
+	export const VSCODE_NLS_CONFIG: string;
 	export const VSCODE_HANDLES_SIGPIPE: string;
 	export const HOMEBREW_PREFIX: string;
 	export const HOMEBREW_CELLAR: string;
@@ -66,10 +66,6 @@ declare module '$env/static/private' {
 	export const P9K_SSH: string;
 	export const VSCODE_AMD_ENTRYPOINT: string;
 	export const VSCODE_HANDLES_UNCAUGHT_ERRORS: string;
-	export const VSCODE_NLS_CONFIG: string;
-	export const P9K_TTY: string;
-	export const _P9K_TTY: string;
-	export const VSCODE_CWD: string;
 	export const ELECTRON_RUN_AS_NODE: string;
 	export const VSCODE_IPC_HOOK_CLI: string;
 	export const VSCODE_L10N_BUNDLE_LOCATION: string;
@@ -82,7 +78,6 @@ declare module '$env/static/private' {
 	export const ELECTRON_NO_ASAR: string;
 	export const CI: string;
 	export const NX_PROJECT_GLOB_CACHE: string;
-	export const NX_CACHE_PROJECTS_CONFIG: string;
 }
 
 /**
@@ -116,7 +111,6 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		USER: string;
 		VSCODE_WSL_EXT_LOCATION: string;
-		WT_PROFILE_ID: string;
 		SHLVL: string;
 		HOME: string;
 		OLDPWD: string;
@@ -131,7 +125,6 @@ declare module '$env/dynamic/private' {
 		TERM: string;
 		PATH: string;
 		XDG_RUNTIME_DIR: string;
-		WT_SESSION: string;
 		DISPLAY: string;
 		LANG: string;
 		SHELL: string;
@@ -139,6 +132,8 @@ declare module '$env/dynamic/private' {
 		HOSTTYPE: string;
 		WSL2_GUI_APPS_ENABLED: string;
 		WSLENV: string;
+		VSCODE_CWD: string;
+		VSCODE_NLS_CONFIG: string;
 		VSCODE_HANDLES_SIGPIPE: string;
 		HOMEBREW_PREFIX: string;
 		HOMEBREW_CELLAR: string;
@@ -154,10 +149,6 @@ declare module '$env/dynamic/private' {
 		P9K_SSH: string;
 		VSCODE_AMD_ENTRYPOINT: string;
 		VSCODE_HANDLES_UNCAUGHT_ERRORS: string;
-		VSCODE_NLS_CONFIG: string;
-		P9K_TTY: string;
-		_P9K_TTY: string;
-		VSCODE_CWD: string;
 		ELECTRON_RUN_AS_NODE: string;
 		VSCODE_IPC_HOOK_CLI: string;
 		VSCODE_L10N_BUNDLE_LOCATION: string;
@@ -170,7 +161,6 @@ declare module '$env/dynamic/private' {
 		ELECTRON_NO_ASAR: string;
 		CI: string;
 		NX_PROJECT_GLOB_CACHE: string;
-		NX_CACHE_PROJECTS_CONFIG: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
