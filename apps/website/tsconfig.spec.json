@@ -1,10 +1,11 @@
 {
-  "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "composite": true,
-    "outDir": "../../dist/out-tsc",
-    "module": "commonjs",
-    "types": ["vitest/globals", "vitest/importMeta", "vite/client", "node"]
-  },
-  "include": ["**/*.spec.ts", "**/*.spec.js", "**/*.d.ts"]
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "outDir": "../../dist/out-tsc",
+        "module": "commonjs",
+        "types": ["vitest/globals", "vitest/importMeta", "vite/client", "node"],
+        "noEmit": false
+    },
+    "include": ["**/*.spec.ts", "**/*.spec.js", "**/*.d.ts"]
 }

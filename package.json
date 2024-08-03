@@ -48,12 +48,13 @@
         "typescript": "~5.5.4",
         "vite": "^5.3.5",
         "vite-plugin-dts": "~3.9.1",
+        "vite-tsconfig-paths": "^4.3.2",
         "vitest": "^2.0.5"
     },
     "nx": {
         "includedScripts": []
     },
-    "type": "commonjs",
+    "type": "module",
     "main": "./src/index.js",
     "typings": "./src/index.d.ts"
 }

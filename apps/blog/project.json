@@ -1,49 +1,52 @@
 {
     "name": "blog",
-    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "$schema": "../..//node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "blog/blog/src",
     "projectType": "application",
-    "root": "apps/blog",
-    "sourceRoot": "apps/blog/src",
     "tags": ["scope:app"],
     "targets": {
         "build": {
-            "executor": "@nxext/sveltekit:build",
+            "executor": "@nx/vite:build",
             "options": {
-                "command": "build"
-            },
-            "dependsOn": [
-                {
-                    "target": "build",
-                    "projects": "dependencies"
-                }
-            ]
+                "project": "apps/blog/package.json",
+                "outputPath": "dist/blog"
+            }
+        },
+        "test": {
+            "executor": "@nx/vite:test"
         },
         "serve": {
-            "executor": "@nx/vite:dev-server",
-            "options": {
-                "command": "dev --host"
-            },
-            "dependsOn": [
-                {
-                    "target": "sync",
-                    "projects": "self"
-                }
-            ]
+            "executor": "@nx/vite:dev-server"
         },
         "preview": {
-            "executor": "@nx/vite:preview-server",
+            "executor": "@nx/vite:preview-server"
+        },
+        "component": {
+            "executor": "@nxext/sveltekit:component",
             "options": {
-                "command": "preview"
-            },
-            "dependsOn": [
-                {
-                    "target": "build",
-                    "projects": "self"
-                }
-            ]
+                "project": "blog",
+                "unitTestRunner": "vitest"
+            }
+        },
+        "route": {
+            "executor": "@nxext/sveltekit:route",
+            "options": {
+                "project": "blog",
+                "unitTestRunner": "vitest"
+            }
+        },
+        "add": {
+            "executor": "@nxext/sveltekit:add"
+        },
+        "lint": {
+            "executor": "@nx/linter:eslint",
+            "options": {
+                "lintFilePatterns": ["blog/frontend/**/*.{ts,svelte,spec.ts}"],
+                "ignorePath": "blog/blog/.gitignore"
+            }
         },
         "check": {
-            "executor": "nx:run-commands",
+            "executor": "@nx/workspace:run-commands",
             "options": {
                 "command": "svelte-check",
                 "cwd": "apps/blog",
@@ -51,7 +54,7 @@
             }
         },
         "e2e": {
-            "executor": "@nrwl/workspace:run-commands",
+            "executor": "@nx/workspace:run-commands",
             "options": {
                 "command": "playwright test",
                 "cwd": "apps/blog"
@@ -62,18 +65,6 @@
                     "projects": "self"
                 }
             ]
-        },
-        "add": {
-            "executor": "@nxext/sveltekit:add"
-        },
-        "lint": {
-            "command": "eslint apps/blog/**/*.{ts,svelte,spec.ts}"
-        },
-        "sync": {
-            "executor": "@nxext/sveltekit:sveltekit",
-            "options": {
-                "command": "sync"
-            }
         }
     }
 }

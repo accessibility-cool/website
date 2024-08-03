@@ -1,11 +1,12 @@
 {
-  "extends": "./tsconfig.json",
+    "extends": "./tsconfig.json",
 
-  "compilerOptions": {
-    "composite": true,
-    "outDir": "../../dist/out-tsc"
-  },
+    "compilerOptions": {
+        "composite": true,
+        "outDir": "../../dist/out-tsc",
+        "noEmit": false
+    },
 
-  "include": ["src/**/*"],
-  "exclude": ["**/*.spec.ts", "**/*_spec.ts"]
+    "include": ["src/**/*"],
+    "exclude": ["**/*.spec.ts", "**/*_spec.ts"]
 }
